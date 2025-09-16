@@ -34,9 +34,11 @@ To simulate real-world scenarios, the script injects labeled anomalies into the 
 
 All injected anomalies are recorded in a companion `events.csv` file with device ID, type, timestamp, and index ranges.
 
-## Output
+## How to Use
 
-The script writes results to a `synthetic_dataset/` folder:
+Run `python genearte.py`.
+
+It writes results to a `synthetic_dataset/` folder:
 
 * **Per-device time series** (`device_X.parquet`) with full sensor data.
 * **Events log** (`events.csv`) summarizing all injected anomalies.
